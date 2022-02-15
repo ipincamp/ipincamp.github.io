@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <Layout
       title={`Docs`}
-      description="Description will go into a meta tag in <head />">
+      description="Ipincamp Project Documentation.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
