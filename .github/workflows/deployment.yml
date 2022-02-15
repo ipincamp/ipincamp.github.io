@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Setup Node
+      - name: Setup Node v16
         uses: actions/setup-node@v2
         with:
           node-version: '16'
@@ -21,7 +21,7 @@ jobs:
         id: yarn-cache
         run: echo "::set-output name=dir::$(yarn cache dir)"
 
-      - name: Cache dependencies
+      - name: Cache Dependencies
         uses: actions/cache@v2
         with:
           path: ${{ steps.yarn-cache.outputs.dir }}
@@ -32,9 +32,11 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn build
 
-      - name: Deploy
+      - name: Deploying
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+          cname: docs.nur-arifin.my.id
+          full_commit_message: ${{ github.event.head_commit.message }}
