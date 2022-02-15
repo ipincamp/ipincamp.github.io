@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkipincamp_github_io=self.webpackChunkipincamp_github_io||[]).push([[248],{7281:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/nodejs","name":"nodejs","count":1,"permalink":"/blog/tags/nodejs"}')}}]);

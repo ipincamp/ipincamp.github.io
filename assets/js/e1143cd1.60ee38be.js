@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkipincamp_github_io=self.webpackChunkipincamp_github_io||[]).push([[640],{1969:function(g){g.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/longblog","name":"longblog","count":1,"permalink":"/blog/tags/longblog"}')}}]);

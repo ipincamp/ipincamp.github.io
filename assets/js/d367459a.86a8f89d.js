@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkipincamp_github_io=self.webpackChunkipincamp_github_io||[]).push([[223],{6054:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/mdxjs","name":"mdxjs","count":1,"permalink":"/blog/tags/mdxjs"}')}}]);
