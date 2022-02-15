@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <Layout
       title={`Docs`}
-      description="Ipincamp Project Documentation.">
+      description="Ipincamp Project Documentation. <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
